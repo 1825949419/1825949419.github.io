@@ -1,0 +1,66 @@
+body,
+li,
+ul,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+input,
+ol {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html,
+body {
+    font-size: 14px;
+    color: #999;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
